@@ -1,0 +1,80 @@
+body {
+    background-color: #688d9e; /* Change this color to your desired background color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .stopwatch-display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .stopwatch-controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .stopwatch-controls button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .stopwatch-controls .start-button {
+    background-color: green;
+  }
+  
+  .stopwatch-controls .stop-button {
+    background-color: red;
+  }
+  
+  .stopwatch-controls .reset-button {
+    background-color: blue;
+  }
+  
+  .stopwatch-controls button:hover {
+    opacity: 0.8;
+  }
+  
+  .stopwatch-controls button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  .recorded-times {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .recorded-times table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .recorded-times th, .recorded-times td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .recorded-times th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
